@@ -1,0 +1,31 @@
+/*html blocks*/
+body {
+  background-color: black;
+}
+wrapper {
+}
+#footer {
+  width: 60%;
+  margin: 0 auto;
+}
+/*classes*/
+.textback {
+  background-color: white;
+}
+.button {
+  display: inline;
+  margin: 0 0 0 0;
+  text-decoration: none;
+  draggable: false;
+}
+.screen {
+  background-color: gray;
+}
+/*ids*/
+#content {
+  width: 60%;
+  margin: 0 auto;
+}
+#info {
+  text-align: center;
+}

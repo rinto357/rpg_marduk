@@ -1,0 +1,507 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1119,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "marduk.js",
+			"settings":
+			{
+				"buffer_size": 488,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "basestyles.css",
+			"settings":
+			{
+				"buffer_size": 127,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "info.js",
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Torin/Documents/Websites/new oversite/sites/REntrix/index.html",
+			"settings":
+			{
+				"buffer_size": 1541,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package cont",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: add",
+				"Package Control: Add Channel"
+			],
+			[
+				"package control: dis",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: ov",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"ind",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"view ",
+				"View In Browser"
+			],
+			[
+				"",
+				"HTML: Encode Special Characters"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Torin/Documents/code/rpproject/marduk.js",
+		"/C/Users/Torin/Documents/code/rpproject/character_cc.js",
+		"/C/Users/Torin/Documents/code/rpproject/eventLoader.js",
+		"/C/Users/Torin/Documents/Websites/new oversite/sites/REntrix/index.html",
+		"/C/Users/Torin/Documents/Websites/archive/REntrix 11_29_13/scripts/basescripts.js",
+		"/C/Users/Torin/Documents/Websites/polydem/scripts/basescripts.js",
+		"/C/Users/Torin/Documents/Websites/polydem/jquery-1.10.2.js",
+		"/C/Users/Torin/Documents/Websites/new oversite/sites/torinsnow/index.html",
+		"/C/Users/Torin/Documents/Websites/new oversite/index.html",
+		"/C/Users/Torin/Documents/Websites/polydem/styles/tgars.css",
+		"/C/Users/Torin/Documents/Websites/desuplayer/globalstyles.css",
+		"/C/Users/Torin/Documents/Websites/desuplayer/styles/basestyles.css",
+		"/C/Users/Torin/Documents/Websites/polydem/tgars",
+		"/C/Users/Torin/Documents/Websites/polydem/index.html",
+		"/C/Users/Torin/Documents/Websites/polydem/tgars.css",
+		"/C/Users/Torin/Documents/Websites/desuplayer/index.html",
+		"/C/Users/Torin/Documents/Websites/desuplayer/media/YouPorn - X Art My Best Friend s Boyfriend.mp4",
+		"/C/Users/Torin/Lin Sivvi Defiant hero.jpg",
+		"/C/Program Files/Console2/console.xml",
+		"/C/Users/Torin/Documents/Websites/polydem/globalstyles.css",
+		"/C/Users/Torin/Documents/Websites/polydem/styles/basestyles.css",
+		"/C/Users/Torin/Documents/Websites/polydem/Scripted.html",
+		"/C/Users/Torin/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
+		"/C/Users/Torin/Documents/Websites/mc/index.html",
+		"/C/Users/Torin/Documents/Websites/bones/jquery-1.10.2.js",
+		"/C/Users/Torin/Documents/Websites/bones/globalstyles.css",
+		"/C/Users/Torin/Documents/Websites/bones/index.html",
+		"/C/Users/Torin/Documents/Websites/lessons/patrick/js/ajax.js",
+		"/C/Users/Torin/Documents/Websites/new oversite/styles/basestyles.css",
+		"/C/Users/Torin/Documents/Websites/new oversite/globalstyles.css",
+		"/C/Users/Torin/AppData/Local/Temp/license.html",
+		"/C/Users/Torin/AppData/Local/Temp/avg-bf669707-ed12-4429-8bea-462d06a03d60.tmp.html",
+		"/C/Users/Torin/Documents/Websites/lessons/patrick/index.html",
+		"/C/Users/Torin/Documents/Websites/lessons/patrick/scripts/ajax.js",
+		"/C/Users/Torin/Documents/Websites/new oversite/sites/torinsnow/styles/indexstylesheet.css",
+		"/C/Users/Torin/Documents/Websites/new oversite/scripts/basescripts.js",
+		"/C/Users/Torin/Documents/Websites/new oversite/sites/torinsnow/artmain.html",
+		"/C/Users/Torin/Documents/Websites/new oversite/sites/torinsnow/writingmain.html",
+		"/C/Users/Torin/Documents/Websites/new oversite/sites/torinsnow/LoLmain.html",
+		"/C/Users/Torin/Documents/Websites/new oversite/sites/torinsnow/projectmain.html",
+		"/C/Users/Torin/Documents/Websites/new oversite/sites/torinsnow/gamesmain.html",
+		"/C/Users/Torin/Documents/Websites/new oversite/sites/REntrix/styles/basestyles.css",
+		"/C/Users/Torin/AppData/Local/Temp/avg-8de49f4d-4d4e-486a-b5cf-8a7e83d1c972.tmp.html",
+		"/C/Users/Torin/AppData/Local/Temp/avg-ad236233-0d9c-490f-a9e5-ae23d5986d1b.tmp.html",
+		"/C/Users/Torin/Documents/Websites/mc/text.html",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/index.html",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/globalstyles.css",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/styles/branchpagestyles.css",
+		"/C/Users/Torin/Documents/Websites/game site/scripts/basescripts.js",
+		"/C/Users/Torin/Documents/Websites/game site/index.html",
+		"/C/Users/Torin/Documents/Websites/game site/maelstrom.html",
+		"/C/Users/Torin/Documents/Websites/game site/tranquility.html",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/writingmain.html",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/styles/indexstylesheet.css",
+		"/C/Users/Torin/Documents/Websites/mc/scripts/basescript.js",
+		"/C/Users/Torin/Documents/Websites/game site/styles/basestyles.css",
+		"/C/Users/Torin/Documents/Websites/game site/scripts/jquery-1.10.2.js",
+		"/C/Users/Torin/Documents/Websites/game site/scripts/Google-Analytics.js",
+		"/C/Users/Torin/Documents/Websites/game site/scripts/jquery-1.10.2 - Copy.js",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/artmain.html",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/projectmain.html",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/LoLmain.html",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/gamesmain.html",
+		"/C/Users/Torin/AppData/Roaming/Sublime Text 2/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/Torin/Documents/Websites/game site/globalstyles.css",
+		"/C/Users/Torin/Documents/Websites/mc/scripts/jquery-1.10.2.js",
+		"/C/Users/Torin/Documents/renpy/renpy-6.15.5-sdk/doc/index.html",
+		"/C/Users/Torin/Documents/renpy/Test/README.html",
+		"/C/Users/Torin/Documents/Websites/mc/globalstyles.css",
+		"/C/Users/Torin/Documents/Websites/mc/styles/basestyles.css",
+		"/C/Users/Torin/Documents/Websites/mc/styles/textstyles.css",
+		"/C/Users/Torin/Documents/Websites/mc/scripts/pagination.js",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/googlecba94b3f9215f73a.html",
+		"/C/Users/Torin/AppData/Local/Temp/fz3temp-1/bgsheet.css",
+		"/C/Users/Torin/Documents/Websites/mc/documents/mc.html",
+		"/C/Users/Torin/Documents/Websites/mc/documents/MC2.html",
+		"/C/Users/Torin/Documents/Websites/source/milestones/milestone_5/jPaginator-min.js",
+		"/C/Users/Torin/Documents/Websites/source/milestones/milestone_0/index.html",
+		"/C/Users/Torin/Documents/Websites/mc/wireframe.html",
+		"/C/Users/Torin/Documents/Websites/mc/basestyles.css",
+		"/C/Users/Torin/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Torin/Documents/renpy/dlg/Tranquility-1.0-win/README.html",
+		"/C/ModMii/COPY_TO_SD/ModMii_Wizard_Guide.html",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/scripts/ch_yo_ow_ad.js",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/textgame.html",
+		"/C/Users/Torin/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Torin/AppData/Roaming/Sublime Text 2/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/Torin/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/styles/projects-pg-stylesheet.css",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/bgsheet.css",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/ood/index.html",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/stylesheets/indexstylesheet.css",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/stylesheets/projects-pg-stylesheet.css",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/projects/projects-pg-stylesheet.css",
+		"/C/Users/Torin/Documents/Websites/bones/wireframe.html",
+		"/C/Users/Torin/Documents/Websites/bones/basestyles.css",
+		"/C/Users/Torin/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/Torin/Documents/Websites/torinsnow.com/torin.css",
+		"/C/Users/Torin/Documents/Websites/New folder/stylesheet.css",
+		"/C/Users/Torin/Documents/Websites/New folder/index.html",
+		"/C/Users/Torin/Documents/Websites/New folder/torin.css",
+		"/C/Users/Torin/Documents/Websites/New folder/index",
+		"/C/Users/Torin/AppData/Local/Temp/fz3temp-1/torin.css",
+		"/C/Users/Torin/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#navigation",
+			"\"",
+			"td",
+			"curr",
+			"'",
+			".height",
+			"height",
+			"leave",
+			"tags",
+			"margin-r",
+			"h3",
+			"ftp://torinsnow@torinsnow.com/",
+			"\"",
+			"\"human\"",
+			"human",
+			"Human",
+			"human",
+			"\"",
+			"open_browser",
+			"\"",
+			"p",
+			"\\"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								388,
+								388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "marduk.js",
+					"settings":
+					{
+						"buffer_size": 488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								376,
+								376
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "basestyles.css",
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "info.js",
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "/C/Users/Torin/Documents/Websites/new oversite/sites/REntrix/index.html",
+					"settings":
+					{
+						"buffer_size": 1541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.933422103862,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"projectmain.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 82.0,
+	"status_bar_visible": true
+}
