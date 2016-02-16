@@ -1,5 +1,12 @@
 console.log('character: start');
-character.nam = 'name';
+character.nam = nam;
+character.gnd = gnd;
+character.age = age;
+character.rac = rac;
+character.hmt = hmt;
+character.bgs = bgs;
+character.upb = upb;
+character.qrk = function(){};
 character.str = new stat('strength',str,0);
 character.spd = new stat('speed',spd,0);
 character.stm = new stat('stamina',stm,0);
@@ -9,5 +16,4 @@ character.mnp = new stat('manipulation',mnp,0);
 character.kno = new stat('knowledge',kno,0);
 character.jud = new stat('judgement',jud,0);
 character.dsr = new stat('desire',dsr,0);
-character.job = 'job'
-console.log('character: success');
+console.log('character: end');

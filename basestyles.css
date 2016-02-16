@@ -13,15 +13,21 @@ wrapper {
   background-color: white;
 }
 .button {
-  display: inline;
+  display: inline-block;
   margin: 0 0 0 0;
   text-decoration: none;
-  draggable: false;
+  min-height: 20px;
+  min-width: 20px;
 }
 .screen {
   background-color: gray;
 }
 /*ids*/
+#nav {
+  height: 50px;
+  width: 60%;
+  margin: 0 auto;
+}
 #content {
   width: 60%;
   margin: 0 auto;

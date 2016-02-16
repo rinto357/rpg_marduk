@@ -8,8 +8,13 @@ var loadFile = function(filename){
 };
 //this loads all subfiles with the loadfile function
 document.onLoad = loadFile('namespace.js');
-document.onLoad = loadFile('info.js');
-document.onLoad = loadFile('charSheet.js');
-document.onLoad = loadFile('content.js');
-document.onLoad = loadFile('listener.js');
-console.log('scriptLoader success');
+window.onLoad = loadFile('info.js');
+window.onLoad = loadFile('charSheet.js');
+window.onLoad = loadFile('screens.js')
+window.onLoad = loadFile('readWrite.js');
+window.onLoad = loadFile('listenLoad.js');
+//sets up the ajax requests
+if(window.XMLHttpRequest){
+  console.log('>>>>ajax able')
+} else {window.alert('please download a modern browser')};
+console.log('scriptLoader: end');

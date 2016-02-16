@@ -1,16 +1,40 @@
 document.version = '0.1.1';
 console.log('namespace: start');
-//tnamespace
+//namespace
 var project = function(){};
-var display = function(width,height){};
+var scrn = function(id,navable,cont){
+  var div = document.createElement('div');
+  div.id = id;
+  document.getElementById('display').appendChild(div);
+  console.log('>>load '+id);
+  if(navable == true){
+    var button = document.createElement('div');
+    button.className += 'button';
+    button.id = id+'Button';
+    document.getElementById('nav').appendChild(button);
+    console.log('>>>>navagatable')};
+};
 var character = new project;
 var stat = function(name,description,x){
   this.nam = name;
   this.des = description;
   this.val = x;
 };
-var nam; //dependancies exist - string
-var des;
+var rng = function(min,max){
+  Math.floor((Math.random()*max)+min);
+};
+var grab = function(filename,target){
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange=function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200){
+      document.getElementById(target).innerHTML = xhttp.responseText;
+    };
+  };
+  xhttp.open("GET",filename+'?t='+Math.random(),true);
+  xhttp.send();
+}; // performs an noncashed ajax GET request
+var nam = 'name'; //dependancies exist - string
+var des = 'description';
 var val;
 //rp variables - often strings
 var gnd = 'gender';
@@ -33,4 +57,5 @@ var dsr = 'how deeply the character is motivated by their desires';
 
 var job = 'the class or calling of the character. Based on their two primary mental stats';
 //world and event variables
-console.log('namespace: success');
+var namespaceReady = true;
+console.log('namespace: end');

@@ -1,5 +1,6 @@
 //general information
 console.log('info: start');
-project.name = 'Marduk Character Creator'
+dependsOn(namespaceReady);
+project.nTag = 'Marduk Character Creator'
 project.author = 'Torin Snow';
-console.log('info: success');
+console.log('info: end');
