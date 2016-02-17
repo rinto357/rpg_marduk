@@ -7,13 +7,13 @@ var loadFile = function(filename){
   console.log('>>load '+filename);
 };
 //this loads all subfiles with the loadfile function
-document.onLoad = loadFile('namespace.js');
-window.onLoad = loadFile('info.js');
-window.onLoad = loadFile('charSheet.js');
-window.onLoad = loadFile('screens.js')
-window.onLoad = loadFile('readWrite.js');
-window.onLoad = loadFile('listenLoad.js');
-//sets up the ajax requests
+loadFile('namespace.js');
+loadFile('info.js');
+loadFile('charSheet.js');
+loadFile('screens.js');
+loadFile('listenLoad.js');
+loadFile('readWrite.js');
+//checks if ajax is a thing
 if(window.XMLHttpRequest){
   console.log('>>>>ajax able')
 } else {window.alert('please download a modern browser')};

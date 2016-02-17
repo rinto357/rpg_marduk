@@ -2,19 +2,28 @@ document.version = '0.1.1';
 console.log('namespace: start');
 //namespace
 var project = function(){};
-var scrn = function(id,navable,cont){
+var scrn = function(id,clas,container,navable){
   var div = document.createElement('div');
   div.id = id;
-  document.getElementById('display').appendChild(div);
+  div.className = clas;
+  document.getElementById(container).appendChild(div);
   console.log('>>load '+id);
   if(navable == true){
     var button = document.createElement('div');
-    button.className += 'button';
-    button.id = id+'Button';
+    button.className += 'navBlock';
+    button.id = id+'Nav';
     document.getElementById('nav').appendChild(button);
     console.log('>>>>navagatable')};
 };
-var character = new project;
+var flowTag = 0;
+var btn = function(id,clas,container){
+  var but = document.createElement('button');
+  but.id = id;
+  but.className = clas;
+  document.getElementById(container).appendChild(but);
+  console.log('>>load '+id);
+};
+var character = function(){};
 var stat = function(name,description,x){
   this.nam = name;
   this.des = description;
@@ -33,6 +42,18 @@ var grab = function(filename,target){
   xhttp.open("GET",filename+'?t='+Math.random(),true);
   xhttp.send();
 }; // performs an noncashed ajax GET request
+var sticker = function(id,filepath,target){
+  var div = document.createElement('div');
+  var img = document.createElement('img');
+  div.id = id+'Container'
+  img.id = id;
+  img.src = filename;
+  document.getElementById(div).appendChild(img)
+  if(document.getElementById(target) !== null){
+    document.getElementById(target).appendChild(div);
+  };
+  console.log(id+' - '+filename+' stuck to '+target);
+};
 var nam = 'name'; //dependancies exist - string
 var des = 'description';
 var val;
@@ -48,14 +69,15 @@ var qrk = 'character quark';
 var str = 'how physically strong a character is';
 var spd = 'how quickly a character can move';
 var stm = 'how long a character can remain active';
-var grt = 'how quickly the character learns from experience';
+var grt = 'how quickly the character gains skill';
 var wis = 'how well the character retains and applies their memories';
 var kno = 'how easily the character comes to understand concepts';
 var mnp = 'how well the character causes change';
 var jud = 'how capable the character is at making strict judgements';
 var dsr = 'how deeply the character is motivated by their desires';
-
 var job = 'the class or calling of the character. Based on their two primary mental stats';
+var skl = 'aptitude of an action'
+var ptn = 'potency of an action atack etc'
+var dip = 'diplomatic equivilent of skill'
 //world and event variables
-var namespaceReady = true;
 console.log('namespace: end');
