@@ -30,11 +30,11 @@ body {
 /*ids*/
 #nav {
   height: 50px;
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
 }
 #content {
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
 }
 #info {
@@ -43,7 +43,7 @@ body {
 #wrapper {
 }
 #footer {
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
 }
 #charWin {
@@ -55,7 +55,7 @@ body {
 #header {
   vertical-align: top;
   height: 62px;
-  width: 60%;
+  width: 75%;
   margin: 0 auto;
   padding: 0px;
   font-size: 0px;
@@ -70,23 +70,27 @@ body {
 }
 /*accordian css pulled from w3 schools. May be modified from original.
 /* Style the buttons that are used to open and close the accordion panel */
-button.accordion {
+button.accordion, button.overAccord, button.trgAccord {
     background-color: #eee;
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 150px;
     text-align: left;
     border: none;
     outline: none;
-    transition: 0.4s;
+    transition: 0.2s;
 }
-
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
+button.accordian.active, button.accordion:hover {
     background-color: #ddd;
 }
-
+button.overAccord.active, button.overAccord:hover {
+    background-color: #ddd;
+}
+button.targAccord.active, button.targAccord:hover {
+    background-color: #ddd;
+}
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
     padding: 0 18px;
