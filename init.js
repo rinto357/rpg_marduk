@@ -5,10 +5,14 @@ var project = new function(){
   this.nTag = 'Marduk Character Creator'
   this.author = 'Torin Snow';
 };
-var scrn = function(id,clas,container,navable){
+var widthAdj;
+var heightAdj;
+var scrn = function(id,clas,container,navable,width,height){
   var div = document.createElement('div');
   div.id = id;
   div.className = clas;
+  widthAdj = width;
+  heightAdj = height;
   document.getElementById(container).appendChild(div);
   console.log('>>load '+id);
   if(navable == true){
@@ -18,6 +22,8 @@ var scrn = function(id,clas,container,navable){
     document.getElementById('nav').appendChild(button);
     console.log('>>>>navagatable')};
 };
+var accordion;
+var lastClicked = 'none';
 var flowTag = 0;
 var btn = function(id,clas,container){
   var but = document.createElement('button');
@@ -45,6 +51,12 @@ var grab = function(filename,target){
   xhttp.open("GET",filename+'?t='+Math.random(),true);
   xhttp.send();
 }; // performs an noncashed ajax GET request
+//this function is for replacing inner html with new content via id
+var writeOver = function(where,what){
+  if((document.getElementById(where) !== null) && (what !== undefined)){
+    document.getElementById(where).innerHTML = what;
+  };
+};
 var sticker = function(id,filepath,target){
   var div = document.createElement('div');
   var img = document.createElement('img');
@@ -57,6 +69,21 @@ var sticker = function(id,filepath,target){
   };
   console.log(id+' - '+filename+' stuck to '+target);
 };
+var explainContent;
+var acrd;
+var trga;
+var ovra;
+var update = function(eleMod,func,x,tag){
+  if(func == 'grab') {
+    grab(x,eleMod);
+  } else if (func == 'writeOver') {
+    writeOver(eleMod,x);
+  } else {console.log(eleMod+' update failed')};
+  flowTag = tag;
+  console.log(flowTag);
+};
+//a collection of update functions
+var actate = Object;
 var nam = 'name'; //dependancies exist - string
 var des = 'description';
 var val;
