@@ -1,0 +1,1 @@
+// namespace to hold variables upon load

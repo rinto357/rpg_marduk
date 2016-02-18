@@ -17,16 +17,11 @@ body {
   background: linear-gradient(right,black,white);
   display: inline-block;
 }
-.button {
-  display: inline-block;
-  margin: 0 0 0 0;
-  text-decoration: none;
-  min-height: 20px;
-  min-width: 20px;
+.statBtn {
+  display: block;
+  width: 120px;
 }
-.screen {
-  background-color: gray;
-}
+
 /*ids*/
 #nav {
   height: 50px;
@@ -52,6 +47,12 @@ body {
 #charStat {
   width: 100%;
 }
+#csExplain {
+  display: none;
+}
+#btnWrap{
+  width: 120px;
+}
 #header {
   vertical-align: top;
   height: 62px;
@@ -67,38 +68,4 @@ body {
   height: 62px;
   margin: 0 0 0 0;
   font-size: 14px;
-}
-/*accordian css pulled from w3 schools. May be modified from original.
-/* Style the buttons that are used to open and close the accordion panel */
-button.accordion, button.overAccord, button.trgAccord {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 150px;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.2s;
-}
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordian.active, button.accordion:hover {
-    background-color: #ddd;
-}
-button.overAccord.active, button.overAccord:hover {
-    background-color: #ddd;
-}
-button.targAccord.active, button.targAccord:hover {
-    background-color: #ddd;
-}
-/* Style the accordion panel. Note: hidden by default */
-div.panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-}
-
-/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
-div.panel.show {
-    display: block !important;
 }
