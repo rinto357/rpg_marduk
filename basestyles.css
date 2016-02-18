@@ -47,11 +47,17 @@ body {
 #charStat {
   width: 100%;
 }
+#cseWrap {
+  display: inline-block;
+  width: 69%;
+  vertical-align: top;
+}
+#btnWrap {
+  display: inline-block;
+  width: 200px;
+}
 #csExplain {
   display: none;
-}
-#btnWrap{
-  width: 120px;
 }
 #header {
   vertical-align: top;
