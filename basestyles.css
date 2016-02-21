@@ -59,25 +59,11 @@ div.panel.show {
   background: linear-gradient(right,black,white);
   display: inline-block;
 }
-<<<<<<< HEAD
-.gradL {
-  font-size: 0px;
-  width: 30px;
-  height: 62px;
-  background: gray;
-  background: -webkit-linear-gradient(left,black,white);
-  background: -moz-linear-gradient(left,black,white);
-  background: -o-linear-gradient(left,black,white);
-  background: linear-gradient(left,black,white);
-  display: inline-block;
-}
-.screen {
-  background-color: gray;
-=======
+
 .statBtn {
   display: block;
   width: 120px;
->>>>>>> test
+
 }
 
 /*ids*/
