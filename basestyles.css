@@ -6,10 +6,21 @@ body {
 .textback {
   background-color: white;
 }
+.gradL {
+  font-size: 0px;
+  width: 30px;
+  height: 100%;
+  background: gray;
+  background: -webkit-linear-gradient(left,black,white);
+  background: -moz-linear-gradient(left,black,white);
+  background: -o-linear-gradient(left,black,white);
+  background: linear-gradient(left,black,white);
+  display: inline-block;
+}
 .gradR {
   font-size: 0px;
   width: 30px;
-  height: 62px;
+  height: 100%;
   background: gray;
   background: -webkit-linear-gradient(right,black,white);
   background: -moz-linear-gradient(right,black,white);
@@ -18,15 +29,31 @@ body {
   display: inline-block;
 }
 .statBtn {
-  display: block;
   width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+.csBox {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0px;
+  margin: 5px;
+}
+.panel {
+  background-color: orange;
+}
+.roof {
+  margin: 5px;
+}
+.csPrimeAtr {
+  display: inline-block;
 }
 
 /*ids*/
 #nav {
   height: 50px;
   width: 75%;
-  margin: 0 auto;
+  margin: 0 auto 25px;
 }
 #content {
   width: 75%;
@@ -48,13 +75,12 @@ body {
   width: 100%;
 }
 #cseWrap {
-  display: inline-block;
-  width: 69%;
   vertical-align: top;
 }
 #btnWrap {
-  display: inline-block;
-  width: 200px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 #csExplain {
   display: none;
@@ -71,7 +97,13 @@ body {
   padding: 0px 30px 0px 30px;
   vertical-align: top;
   display: inline-block;
-  height: 62px;
+  height: 100%;
   margin: 0 0 0 0;
   font-size: 14px;
+}
+#charSheet{
+  padding: 5px;
+}
+#csCharInfo{
+  display: inline-block;
 }
