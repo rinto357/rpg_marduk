@@ -1,0 +1,64 @@
+
+/*html blocks*/
+body {
+  background-color: black;
+}
+
+/*classes*/
+.left-column {
+  display: inline-block;
+  float: left;
+}
+
+.stat-button {
+  display: block;
+  width: 120px;
+  background: #999;
+  padding: 5px;
+  margin: 10px 0;
+  border-radius: 3px;
+  border: 1px solid #333;
+  text-decoration: none;
+}
+
+.stat-button:first-child {
+  margin-top: 0;
+}
+
+.stat-button:hover {
+  background: #666;
+}
+
+.right-column {
+  margin-left: 140px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 3px;
+  min-height: 300px;
+}
+
+/*ids*/
+#content, #footer, #header {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#banner {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* utility classes */
+.none {
+  display: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
